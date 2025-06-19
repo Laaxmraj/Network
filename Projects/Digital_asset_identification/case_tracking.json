@@ -1,0 +1,22 @@
+{
+  "FACEBOOK_20250618_190026": {
+    "case_id": "FACEBOOK_20250618_190026",
+    "platform": "Facebook",
+    "deceased_name": "Laaxmi",
+    "executor_name": "laxdoc158@gmail.com",
+    "action_type": "email",
+    "created_date": "2025-06-18T19:00:26.370118",
+    "status": "submitted",
+    "last_updated": "2025-06-18T19:00:26.370461"
+  },
+  "GOOGLE_20250619_152740": {
+    "case_id": "GOOGLE_20250619_152740",
+    "platform": "Google",
+    "deceased_name": "John Smith",
+    "executor_name": "Sarah Smith",
+    "action_type": "email",
+    "created_date": "2025-06-19T15:27:40.374512",
+    "status": "submitted",
+    "last_updated": "2025-06-19T15:27:40.374622"
+  }
+}
