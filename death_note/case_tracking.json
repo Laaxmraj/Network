@@ -1,0 +1,42 @@
+{
+  "FACEBOOK_20250618_190026": {
+    "case_id": "FACEBOOK_20250618_190026",
+    "platform": "Facebook",
+    "deceased_name": "Laaxmi",
+    "executor_name": "laxdoc158@gmail.com",
+    "action_type": "email",
+    "created_date": "2025-06-18T19:00:26.370118",
+    "status": "submitted",
+    "last_updated": "2025-06-18T19:00:26.370461"
+  },
+  "GOOGLE_20250619_152740": {
+    "case_id": "GOOGLE_20250619_152740",
+    "platform": "Google",
+    "deceased_name": "John Smith",
+    "executor_name": "Sarah Smith",
+    "action_type": "email",
+    "created_date": "2025-06-19T15:27:40.374512",
+    "status": "submitted",
+    "last_updated": "2025-06-19T15:27:40.374622"
+  },
+  "GOOGLE_20250623_160736": {
+    "case_id": "GOOGLE_20250623_160736",
+    "platform": "Google",
+    "deceased_name": "Malupillai",
+    "executor_name": "Nalu Kollai",
+    "action_type": "email",
+    "created_date": "2025-06-23T16:07:36.786349",
+    "status": "submitted",
+    "last_updated": "2025-06-23T16:07:36.786372"
+  },
+  "GOOGLE_20250623_175051": {
+    "case_id": "GOOGLE_20250623_175051",
+    "platform": "Google",
+    "deceased_name": "tou sun",
+    "executor_name": "tim",
+    "action_type": "email",
+    "created_date": "2025-06-23T17:50:51.533286",
+    "status": "submitted",
+    "last_updated": "2025-06-23T17:50:51.533908"
+  }
+}
