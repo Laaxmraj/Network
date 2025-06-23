@@ -53,19 +53,6 @@ print(f"Status: {status['current_status']}")
 | Microsoft | 30-60 days | 75% | Medium |
 | Apple | 60-180 days | 60% | Hard |
 
-## 🧪 Testing
-
-```bash
-python quickstart.py              # Verify installation
-python example_usage.py           # See examples
-python test_prompts_automated.py  # Run tests
-```
-
-## 📄 Documentation
-
-- [Full Documentation](https://github.com/Laaxmraj/Network/wiki)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [License](LICENSE)
 
 ## ⚖️ Legal Notice
 
