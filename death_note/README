@@ -1,0 +1,72 @@
+# Death Note - Digital Estate Recovery Agent 🏛️
+
+AI-powered assistant helping families recover digital accounts after losing a loved one.
+
+## 🎯 Problem & Solution
+
+When someone passes away, accessing their digital accounts becomes a complex, platform-specific challenge. Death Note automates this process by sending recovery requests, tracking progress, and guiding families through each platform's requirements.
+
+## ✨ Features
+
+- **🤖 Automated Emails** - Professional recovery requests to Google, Facebook, Apple, Microsoft
+- **📊 Case Tracking** - Monitor request status with unique IDs and timelines  
+- **📚 Platform Guides** - Step-by-step instructions for each service
+- **🔍 Asset Discovery** - Find potential accounts from email addresses
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/Laaxmraj/Network.git
+cd Network/death_note
+pip install -r requirements.txt
+cp .env.example .env  # Configure email settings (optional)
+```
+
+## 💻 Usage
+
+```python
+from agent import send_recovery_email, track_case_status
+
+# Send recovery request
+result = send_recovery_email(
+    platform="Google",
+    deceased_name="John Doe",
+    deceased_email="john@gmail.com",
+    deceased_date="2024-12-01",
+    executor_name="Jane Doe",
+    executor_email="jane@email.com",
+    executor_relationship="spouse",
+    available_documents="Death certificate, Marriage certificate"
+)
+
+# Track progress
+status = track_case_status(result['case_id'])
+print(f"Status: {status['current_status']}")
+```
+
+## 📊 Platform Timelines
+
+| Platform | Response Time | Success Rate | Difficulty |
+|----------|--------------|--------------|------------|
+| Facebook | 14-30 days | 80% | Easy |
+| Google | 30-90 days | 85% | Medium |
+| Microsoft | 30-60 days | 75% | Medium |
+| Apple | 60-180 days | 60% | Hard |
+
+## 🧪 Testing
+
+```bash
+python quickstart.py              # Verify installation
+python example_usage.py           # See examples
+python test_prompts_automated.py  # Run tests
+```
+
+## 📄 Documentation
+
+- [Full Documentation](https://github.com/Laaxmraj/Network/wiki)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [License](LICENSE)
+
+## ⚖️ Legal Notice
+
+This tool assists with legitimate estate recovery only. Users must have legal authority. Always consult legal professionals for estate matters.
